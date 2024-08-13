@@ -1,0 +1,67 @@
+input,
+textarea,
+button,
+select,
+a,
+div,
+p {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.transition-mobile {
+  transition: transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+}
+
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.light-blur {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.blur {
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+}
+
+.cursor-r-arrow {
+  cursor: url("/img/cursor/arrow_right.svg") 30 16, auto;
+}
+
+.cursor-l-arrow {
+  cursor: url("/img/cursor/arrow_left.svg"), auto;
+}
+
+.noscroll::-webkit-scrollbar {
+  display: none;
+}
+
+.noscroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  white-space: pre-line;
+}
+
+.whiteLink {
+  color: white;
+  text-decoration: underline;
+}
+
+.architectureImg {
+  z-index: 0;
+  position: relative;
+}
+
+.closeUnderline {
+  cursor: pointer;
+}
