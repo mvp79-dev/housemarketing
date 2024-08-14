@@ -60,7 +60,8 @@ const Architecture = () => {
                         garden furniture design that sits in conversation with the existing structure.
                     </Typography>
                     <Typography fontWeight={300} color="text.secondary" marginLeft={'10rem'} style={{ zIndex: 1 }} textAlign="justify">
-                        For further Information please visit: <a href="https://www.aaschool.ac.uk/academicprogrammes/visitingschool/neuendorf-house-visiting-school" target="_blank" style={{ color: 'inherit' }}>https://www.aaschool.ac.uk/academicprogrammes/visitingschool/neuendorf-house-visiting-school</a>
+                        For further Information please visit: <a href="https://www.aaschool.ac.uk/academicprogrammes/visitingschool/neuendorf-house-visiting-school" target="_blank" style={{ color: 'inherit' }}>https://www.aaschool.ac.uk/academicprogrammes/
+                            visitingschool/neuendorf-house-visiting-school</a>
                     </Typography>
                 </Stack>
             </Stack>
